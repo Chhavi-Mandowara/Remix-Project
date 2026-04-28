@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: sans-serif;
+}
+
+[data-theme="mint"] {
+    --tw-bg-opacity: 1;
+    background-color: #c4d4c8;
+    color: #213540;
+}
+
+[data-theme="light"] {
+    --tw-bg-opacity: 1;
+    background-color: #fefffe;
+}
+
+[data-theme="dust"] {
+    --tw-bg-opacity: 1;
+    background-color: #eed6d3;
+}
+
+[data-theme="water"] {
+    --tw-bg-opacity: 1;
+    background-color: #d4f1f4;
+}
